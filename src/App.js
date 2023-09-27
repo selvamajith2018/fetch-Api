@@ -14,10 +14,8 @@ function App() {
         <Route index element={<Home />} />
         <Route path='/Home' element={<Home/>} />
         <Route path='/EmpList' element={<UsersList/>} />
-        
         </Routes>
       </BrowserRouter>
-      
       <Footer/>
     </div>
   );

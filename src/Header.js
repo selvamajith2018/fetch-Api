@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
     return (
         <div>
-            <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+            <nav className="container-fluid navbar navbar-expand-sm bg-dark navbar-dark">
                 <div className="container-fluid">
                     <a className="navbar-brand ps-3" href="/Home"><i class="fa-solid fa-people-roof fa-xl" style={{color:'yellow'}}></i></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">

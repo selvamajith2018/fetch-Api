@@ -3,7 +3,7 @@ import './Home.css';
 import { Link } from 'react-router-dom'
 function Home() {
   return (
-    <div>
+    <div className='container-fluid'>
         <div className='row'>
             <div className='col-12 col-sm-12 col-md-12 col-lg-12'>
             <h2 className='pt-5 text-dark' style={{fontWeight:'800'}}>Employee Management</h2>
