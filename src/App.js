@@ -1,3 +1,5 @@
+// import the necessary files
+//using the keyword import
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import './App.css';
 import Footer from './Footer';
